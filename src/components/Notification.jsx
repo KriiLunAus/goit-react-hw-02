@@ -1,7 +1,7 @@
-const Notification = () => {
+const Notification = ({message}) => {
     return (
         <>
-            <p>No feedback yet</p>
+            <p>{message}</p>
         </>
     )
 }
